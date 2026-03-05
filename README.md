@@ -66,6 +66,7 @@ AI sucks at being a neutral 3rd party, so there are no instructions yet for hand
 | Folder | What's in it |
 |--------|-------------|
 | [`methodology/`](methodology/) | The core methodology — AI instructions for gathering financial context and delivering personalized guidance. This is the main asset. |
+| [`toolkit/`](toolkit/) | Ready-to-use implementations of the methodology — compressed instructions, Claude Skills, and other platform packages. |
 | [`instructions/`](instructions/) | Step-by-step setup guides for Claude, ChatGPT, Gemini, and generic system prompts. |
 | [`test-harness/`](test-harness/) | CLI workbench for testing the methodology against real questions across Claude, GPT, and Gemini. Uses Google Sheets as a data store. |
 
