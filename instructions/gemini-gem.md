@@ -15,7 +15,7 @@ Go to [gemini.google.com](https://gemini.google.com), open the side menu, and cl
 
 ### 2. Set up the Gem
 
-- **Name:** Something like "Financial Context Advisor" (your choice)
+- **Name:** Something like "Personal Finance Coach" (your choice)
 
 ### 3. Paste the instructions
 

@@ -15,7 +15,7 @@ Go to [chatgpt.com/gpts/editor](https://chatgpt.com/gpts/editor) (or click your 
 
 ### 2. Fill in the basics
 
-- **Name:** Something like "Financial Context Advisor" (your choice)
+- **Name:** Something like "Personal Finance Coach" (your choice)
 - **Description:** A short line like "Asks the right questions before giving financial guidance."
 
 ### 3. Set the system prompt

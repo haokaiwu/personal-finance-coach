@@ -11,7 +11,7 @@ Add the methodology to a [Claude Project](https://support.claude.com/en/articles
 
 ### 1. Create a new project
 
-Go to [claude.ai](https://claude.ai), hover over the left sidebar, and click **Projects** → **New Project**. Give it a name like "Financial Advisor" or whatever you want.
+Go to [claude.ai](https://claude.ai), hover over the left sidebar, and click **Projects** → **New Project**. Give it a name like "Personal Finance Coach" or whatever you want.
 
 ### 2. Set the project instructions
 
