@@ -1,12 +1,10 @@
-# Personal Financial Context for AI
+# Personal Finance Context for AI
 
 A toolkit for improving the quality of AI responses to personal finance questions. Built by [WorthIQ](https://worthiq.app).
 
 ## What This Is
 
-People ask AI for advice even when they shouldn't. Rather than preaching abstinence, think of this as sex ed. This toolkit helps for personal finance or adjacent questions. For a full list of what is currently covered and what isn't, check the latest methodology doc.
-
----
+People ask AI for advice even when they shouldn't. Rather than preaching abstinence, think of this as sex ed. This toolkit helps for personal finance or adjacent questions. For a full list of what is currently covered and what isn't, check the latest methodology doc [here](methodology/methodology-master-doc.md).
 
 ## How to use it
 
@@ -15,8 +13,6 @@ There are a few paths to using it:
 1. RECOMMENDED: Use with Claude as a Skill. See [here](instructions/claude-skill.md) for instructions.
 2. RECOMMENDED: Add methodology folder into a Claude project, a custom GPT, or similar. See [here](instructions/README.md) for instructions.
 3. Copy and paste the [general methodology doc](methodology/methodology-master-doc.md) into your system instructions. See [here](instructions/system-prompt.md) for instructions.
-
----
 
 ## Using with WorthIQ snapshots:
 
@@ -31,8 +27,6 @@ To use WorthIQ snapshots:
 3. Export the snapshot as text. 
 4. Copy the snapshot above your question.
 
----
-
 ## How does it work?
 
 Instructions tell the AI to ask you questions rather than respond immediately if you don't provide sufficient context. They also give AI a set of required and recommended data points to collect as context. Both of these instructions are helpful because it prevents the AI from jumping to conclusions based on limited information, which is particularly harmful for personal finance conversations.
@@ -40,8 +34,6 @@ Instructions tell the AI to ask you questions rather than respond immediately if
 The instructions also gives light guidance on how to give good responses, and it lightly jailbreaks the AI in cases when it's being overly cautious. 
 
 The instructions don't activate unless it's a question that requires personalized context. It shouldn't guide behavior for factual questions, hypotheticals, and so on. The instructions are human-readable, so you can inspect it to see exactly what it's telling the AI to do.
-
---
 
 ## Support
 
