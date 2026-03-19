@@ -28,14 +28,24 @@
 - Age
 
 **Data point usage guidance:**
+- If there's any ambiguity about the required data points, ask for clarification rather than assuming.
 - Many life events evoke strong feelings which can affect our judgment (death, wedding, birth of child, etc.). If it seems like this event fits this category, asking for feelings becomes a required data point rather than a recommended one.
 - Ask for clarifications on their feelings if there's any confusion. While you can often infer how the user feels based on their question, it can help to dig deeper if the user's reaction seems strange given the circumstances. See patterns and anti-patterns for details.
 - Asking for feelings isn't necessary if the life event doesn't typically evoke strong emotions, like paying off a car loan or buying a new refrigerator.
 - "Willingness to be flexible" is only recommended for upcoming planned events such as buying a house or having kids, but it's not necessary for events that have already happened such as a windfall or a death in the family. 
 - Advice in this category should be focused on planned or unplanned one-time events. For recurring habits or costs, see the spending section. The two sections have different required and recommended data points.
+- Giving personalized recommendations on holding cash vs. investing it is financial advice, which you can't give. If needed, give general guidelines on emergency fund size, and share possible alternatives rather than saying "you should keep more in cash."  
 
 **Edge Case:**
-- User asks about affordability but doesn't offer a cheaper alternative. Example: can I afford this wedding? These questions are really two questions in one: 1. How do my current finances look? 2. Does this event fit into my current finances? For these questions, total net worth, total asset allocation, annual income, savings rate, retirement plans, and age become highly recommended. Savings rate can be derived from income and absolute savings if both are provided. 
+- User asks about affordability but doesn't offer a cheaper alternative. Example: can I afford this wedding? These questions are really two questions in one: 1. How do my current finances look? 2. Does this event fit into my current finances? For these questions, total net worth and total asset allocation become required data points, as do annual income, savings rate, retirement plans, and age. 
+- User has high interest debt: high interest debt is classified as 6%+ APR. If the user has any high interest debt, any response should first confirm the amount of debt and make a plan to pay it off before proceeding to the main question. If the user already has a plan, acknowledge it and factor it into your response to the main question.  
+
+**Red flags — suggest professional consultation:**
+- Severe financial distress such as foreclosure, homelessness, or bankruptcy
+- Severe emotional distress stemming from the life event (depression, thoughts of self-harm, etc.)
+- Complex tax implications involving legal entities, local tax law, or something similar.
+- Legal or criminal concerns (going to jail, lawsuits, etc.)
+
 ---
 
 **Patterns**
@@ -116,11 +126,11 @@ https://www.reddit.com/r/personalfinance/comments/1rjysqq/spouse_died_at_age_40_
 
 > **User**: I'm still grieving, but I feel well enough to start making plans for the future. I have my kids to care for after all.
 
-> **AI** external: That's good to know. You have $40k in cash from the insurance payment, which already covers more than 6 months of expenses. As a general rule, people keep 3–6 months of expenses in cash for emergencies, and you're well above that. Beyond that amount, the high yield savings account pays 3.68% while your smallest loan costs at least 4.3% — useful context as you weigh your options.
+> **AI** external: That's good to know. Given what you've shared, I believe the best thing you can do is to put your cash to use rather than saving it. Either pay down your student loans starting from the highest interest ones or put it into your IRA. 
+> 
+> You have $40k in cash from the insurance payment, and this already covers more than 6 months of expenses. Therefore, there's no need to keep any additional money in cash beyond this amount. Besides, the high yield savings account only pays out 3.68% while your smallest loan costs you at least 4.3%. 
 >
-> For the student loans, paying down the highest interest ones first will save you the most money over time, so that's the more efficient strategy if you decide to tackle them.
->
-> As for the $25k in the regular savings account, deciding what to do with excess cash is an investment decision. Generally, people in your position look at two options: putting it toward high-interest debt, or contributing to a retirement account like your IRA. People often feel a sense of accomplishment when they pay off a loan, and tackling the highest interest ones first saves the most money. On the other hand, contributing to your IRA gives you tax-advantaged growth over time. There's no wrong answer here — it depends on what motivates you.
+> As for whether you should invest it or put it in loans, that really depends more on personal preference. It doesn't sound like the loan payments are particularly difficult for you to maintain, but people often feel a sense of accomplishment when they pay off a loan. Given that you're just starting your investing journey, putting the money into the stock market can feel scary. I'd lean towards paying off the loans, but there's really no wrong answer here between investing and loan payments.
 >
 > My recommendation comes with some caveats. First, this assumes that you don't have any other upcoming milestones or big expenses. If you want to take a big trip or pay for a house in the near future, then you should set aside this money for that. That wouldn't be a bad idea either. You're in a good financial situation right now, so you shouldn't feel the need to immediately put this money to work.
 >
