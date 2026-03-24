@@ -36,14 +36,10 @@ jobs:
           cd staging
           zip ../methodology-files.zip *.md
 
-      - name: Delete existing 'latest' release (if any)
-        run: gh release delete latest --yes --cleanup-tag || true
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Create new 'latest' release with ZIP
+      - name: Create release if it doesn't exist
         run: |
-          gh release create latest methodology-files.zip \
+          gh release view latest > /dev/null 2>&1 || \
+          gh release create latest \
             --title "Methodology Files (Latest)" \
             --notes "Auto-generated ZIP of the methodology files. Updated on every push to main.
 
@@ -54,9 +50,12 @@ jobs:
           - life-events-overview.md
           - spending-overview.md
           - implementation-guide.md
-          - loading-protocol.md
-
-          Last updated: $(date -u '+%Y-%m-%d %H:%M UTC')" \
+          - loading-protocol.md" \
             --latest
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload ZIP (replace if exists)
+        run: gh release upload latest methodology-files.zip --clobber
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
