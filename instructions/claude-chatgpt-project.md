@@ -21,7 +21,7 @@ Give it a name like "Personal Finance Coach" or whatever you want.
 
 ### 2. Set the project instructions
 
-Paste the entire contents of `methodology/methodology-master-doc.md` into the project instructions field, then save.
+Paste the entire contents of [methodology/methodology-master-doc.md](https://raw.githubusercontent.com/haokaiwu/personal-finance-coach/refs/heads/main/methodology/methodology-master-doc.md) into the project instructions field, then save.
 
 **Claude:** Click the Plus button next to the **Instructions** on the right sidebar, paste in the text box, and click **Save instructions**.
 
