@@ -9,6 +9,8 @@ on:
       - 'methodology/investing/investing-overview.md'
       - 'methodology/life-events/life-events-overview.md'
       - 'methodology/spending/spending-overview.md'
+      - 'methodology/implementation-guide.md'
+      - 'methodology/loading-protocol.md'
   workflow_dispatch: # allows manual trigger from GitHub UI
 
 permissions:
@@ -28,7 +30,9 @@ jobs:
             methodology/career/career-overview.md \
             methodology/investing/investing-overview.md \
             methodology/life-events/life-events-overview.md \
-            methodology/spending/spending-overview.md
+            methodology/spending/spending-overview.md \
+            methodology/implementation-guide.md \
+            methodology/loading-protocol.md
 
       - name: Delete existing 'latest' release (if any)
         run: gh release delete latest --yes --cleanup-tag || true
@@ -39,7 +43,7 @@ jobs:
         run: |
           gh release create latest methodology-files.zip \
             --title "Methodology Files (Latest)" \
-            --notes "Auto-generated ZIP of the 5 methodology overview files. Updated on every push to main.
+            --notes "Auto-generated ZIP of the methodology files. Updated on every push to main.
 
           **Included files:**
           - assessment-overview.md
@@ -47,6 +51,8 @@ jobs:
           - investing-overview.md
           - life-events-overview.md
           - spending-overview.md
+          - implementation-guide.md
+          - loading-protocol.md
 
           Last updated: $(date -u '+%Y-%m-%d %H:%M UTC')" \
             --latest
